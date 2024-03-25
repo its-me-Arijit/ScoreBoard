@@ -1,0 +1,48 @@
+body {
+    background-image: url('football.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .scoreboard {
+    display: flex;
+    opacity: 0.9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    background: rgb(187, 188, 182);
+    max-width: 90%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
+  
+  .team {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .team h2 {
+    margin: 0;
+  }
+  
+  .team p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(137, 133, 141);
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+  

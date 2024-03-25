@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scoreboard</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="scoreboard">
+    <div class="team">
+      <h2>HOME TEAM</h2>
+      <p id="teamAScore">0</p>
+      <button onclick="incrementScore('teamA')">GOAL</button>
+    </div>
+    <div class="team">
+      <h2>AWAY TEAM</h2>
+      <p id="teamBScore">0</p>
+      <button onclick="incrementScore('teamB')">GOAL</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
